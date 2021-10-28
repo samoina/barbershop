@@ -1,0 +1,26 @@
+
+/*Why can't i get the border to go all round the content?*/
+header {
+  border-bottom: 2px solid #000000
+}
+
+header h1 {
+  border: 1px solid #000000;
+  float: left;
+}
+
+.highlight {
+  background-color: #000000;
+  color: #ff0000;
+}
+
+header nav ul {
+  float: right;
+  padding: 0;
+}
+
+header nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
