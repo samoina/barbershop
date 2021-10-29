@@ -1,25 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barber Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
 </head>
+
 <body>
   <header>
     <div id="logo">
-      <h1><span class="highlight">Shaves</span> & Trims</h1>
+      <p><span class="highlight">Shaves</span> &Trims</p>
     </div>
     <nav>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
+      <ul id="start">
+        <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#"><i class="fas fa-map-marker-alt mr-2 "></i>Kenya</a></li>
+        <li><a id="sign-in" href="#">Sign In</a></li>
       </ul>
     </nav>
   </header>
-  
+
+  <section>
+    <div class="row" id="landing-page">
+
+      <div class="col-md-9" id="left-side">
+
+        <div class="d-flex flex-column bd-highlight mb-3" id="display">
+          <div class="p-2 bd-highlight">
+            <p class="display-para">2021 SPECIAL CAMPAIGN</p>
+          </div>
+          <div class=" bd-highlight">
+            <h1 class="display-title">AWARD</h1>
+          </div>
+          <div class=" bd-highlight">
+            <h1 class="display-title">WINNING</h1>
+          </div>
+          <div class=" bd-highlight">
+            <h1 class="display-title">BARBERSHOP</h1>
+          </div>
+
+          <div class="buttons">
+            <button class="p-3 btn-shadow btn-col">
+              Make appointment
+            </button>
+            <button class="p-3 ml-5 btn-shadow" id="btn-num"><i class="fas fa-phone-alt mr-1"></i>
+              +254 721 000 000
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-md-3" id="right-side">
+       <div class="video">
+          <video>
+          <source src="./videos/shave.mp4" type="video/mp4">
+        </video>
+       </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

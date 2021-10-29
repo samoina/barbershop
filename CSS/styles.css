@@ -1,26 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
-/*Why can't i get the border to go all round the content?*/
-header {
-  border-bottom: 2px solid #000000
+@font-face {
+  font-family: 'betty-molly';
+  src: url(/barbershop/CSS/fonts/betty_molly/Betty\ Molly\ -\ Personal\ Use.otf);
 }
 
-header h1 {
-  border: 1px solid #000000;
-  float: left;
+:root {
+  --primary-color: #fdf8ec;
+  --secondary-color: #fc683f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid #000000;
+  padding-top: 10px
+}
+
+#logo {
+  font-family: 'betty-molly';
+  font-size: 2rem;
+  /* border: 1px solid #000000; */
 }
 
 .highlight {
   background-color: #000000;
-  color: #ff0000;
+  color: var(--secondary-color);
 }
 
-header nav ul {
-  float: right;
-  padding: 0;
-}
-
-header nav li {
+#start {
+  display: flex;
+  justify-content:space-between;
   list-style: none;
-  display: inline;
-  padding: 0 10px 0 10px;
+  /* border: 3px solid #000000; */
+  margin-right: 100px; 
+  padding-top: 10px;
+}
+
+#start li {
+  margin-right: 40px;
+}
+
+#start li #sign-in {
+  color: var(--secondary-color);
+}
+
+#start li #sign-in:hover {
+  border-bottom-style: none;
+}
+
+#start li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#start li a:hover {
+  font-weight: bolder;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+#landing-page {
+  width: 100vw;
+  height: 80vh;
+}
+
+#right-side {
+  background-color: var(--secondary-color);
+}
+
+#display {
+  border: 3px solid #000000;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: fit-content;
+}
+
+.display-para {
+  font-size:smaller;
+}
+
+.display-title {
+  font-weight: 900;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content:flex-start;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.btn-shadow {
+  box-shadow: 5px 5px;
+}
+
+.btn-col {
+  background-color: var(--secondary-color);
+  font-weight: bolder;
+}
+
+#btn-num {
+  background-color: #ffffff;
+  font-weight: bolder;
+}
+
+.video { 
+  width: 460px;
+  margin-top: 30%;
+  
+}
+video{
+  width: 100% !important;
+  height:auto !important;
+ position: relative;
+ right: 45%;
+ /* border: 10px solid var(--secondary-color); */
+ box-shadow: 20px 40px var(--secondary-color) inset;
 }
