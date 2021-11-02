@@ -11,6 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
   <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
@@ -22,15 +23,15 @@
     <nav>
       <ul id="start">
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#footer">Contact Us</a></li>
         <li><a href="#"><i class="fas fa-map-marker-alt mr-2 "></i>Kenya</a></li>
         <li><a id="sign-in" href="#">Sign In</a></li>
       </ul>
     </nav>
   </header>
 
-  <section>
+  <section class="punchline">
     <div class="row" id="landing-page">
       <div class="col-md-9" id="left-side">
         <div class="d-flex flex-column bd-highlight mb-3" id="display">
@@ -52,7 +53,7 @@
               Make appointment
             </button>
             <button class="p-3 ml-5 btn-shadow" id="btn-num"><i class="fas fa-phone-alt mr-1"></i>
-              +254 721 000 000
+              +254 721 9987 3210
             </button>
           </div>
         </div>
@@ -68,13 +69,15 @@
     </div>
   </section>
 
-  <section id="services">
-    <div class="services-text">
-      <p><span class="top-text">LUXURY SERVICES</span></p>
-      <h3>Our Services</h3>
-      <p>We focus on highlighting the essence of the contemporary man. Relax, unwind and enjoy a premium grooming
-        service of your choice, while our skilled barbers and personal care experts attend to your specific needs.</p>
-      <br>
+  <section id="services" class="tagline">
+    <div class="container">
+      <div class="services-text">
+        <p><span class="top-text">LUXURY SERVICES</span></p>
+        <h3 class="text-header">Our Services</h3>
+        <p>We focus on highlighting the essence of the contemporary man. Relax, unwind and enjoy a premium grooming
+          service of your choice, while our skilled barbers and personal care experts attend to your specific needs.</p>
+        <br>
+      </div>
     </div>
     <div class="container">
       <div class="card-deck">
@@ -129,7 +132,7 @@
     </div>
   </section>
 
-  <section id="about" class="md-5">
+  <section id="about" class="md-5 headline">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -155,12 +158,12 @@
   <section id="team" class="mt-5">
     <div class="container" id="team-text">
       <p class="p-2 font-weight-bold"><span class="top-text">TEAM</span></p>
-      <h2 class="font-weight-bold">Our Expert Team</h2>
+      <h4 class="font-weight-bold">Our Expert Team</h4>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem tempore ut corporis natus atque.
       </p>
     </div>
     <div class="container">
-      <div class="card-deck">
+      <div class="card-deck p-4">
         <div class="card">
           <img src="https://source.unsplash.com/collection/cars/800x900" class="card-img-top" alt="Random">
           <div class="card-footer">
@@ -192,10 +195,166 @@
     </div>
   </section>
 
+  <section class="spacer">
+
+    <div class="testimonial-section">
+      <div class="testi-user-img">
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="u3" src="CSS/images/testi-one.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img class="u1" src="CSS/images/testi-two.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img class="u2" src="CSS/images/testi-three.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img class="u4" src="CSS/images/testi-four.jpg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="user-saying">
+        <div class="swiper-container testimonial">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper ">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="quote">
+                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+                <p>
+
+                  Patrice did an awesome job with my afro, attention to detail, fast, friendly and great price! Would
+                  definitely recommend.
+                </p>
+                <div class="name">-Fabian-</div>
+                <div class="designation">Model</div>
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quote">
+                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                <p>
+                  Felt completely comfortable! Great locs retouch and conversation. Definitely my new loctitian. See you
+                  guys when I'm back from vacation.
+                </p>
+                <div class="name">-Meshack-</div>
+                <div class="designation">Artist</div>
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quote">
+                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                <p>
+                  I’ve been taking my kiddo here since his first haircut. They have always given great cuts and taken
+                  great care of my little guy. Highly recommend this place! I wish I could post a pic of the latest
+                  awesome beard trim
+                </p>
+                <div class="name">-Leo-</div>
+                <div class="designation">Designer</div>
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quote">
+                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                <p>
+                  Excellent barber, really nice guy. We got 3 great cuts that were all different. Izooh is one of the
+                  better barbers I've been to from Mombasa to Nairobi.
+                </p>
+                <div class="name">-Irvin-</div>
+                <div class="designation">Auditor</div>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination swiper-pagination-white"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="mt-5 mb-5 container">
+    <p class="p-2 font-weight-bold text-center"><span class="top-text">APPOINTMENT</span></p>
+      <h2 class="font-weight-bold text-center mb-5">BOOK AN APPOINTMENT</h2>
+      <div id="book-form">
+        <input type="text" name="" id="" placeholder="Full Name">
+        <input type="text" name="" id="" placeholder="Phone Number">
+        <input type="text" name="" id="" placeholder="Choose a service">
+        <button class="p-2 btn-shadow btn-col" id="btn-learn">
+          Make Appointment
+        </button>
+      </div>
+  </section>
+
+  <footer id="footer">
+    <div class="row container">
+      <div class="col-md-3">
+        <div id="logo">
+          <p><span class="highlight">Shaves</span> &Trims</p>
+        </div>
+        <p>Get more information on our social platforms. Follow Us</p>
+        <div class="social">
+          <i class="fab fa-facebook fa-2x mr-3"></i>
+          <i class="fab fa-twitter fa-2x mr-3"></i>
+          <i class="fab fa-instagram fa-2x mr-3"></i>
+          <i class="fab fa-tiktok fa-2x mr-3"></i>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <h4>About</h4>
+        <p class="mt-4">About</p>
+        <p>Jobs</p>
+        <p>Media</p>        
+      </div>
+
+      <div class="col-md-2">
+        <h4>Community</h4>
+        <p class="mt-4">CSR</p>
+        <p>Support</p>
+        <p>Projects</p>   
+        <p>Initiatives</p>   
+      </div>
+
+      <div class="col-md-2">
+        <h4>Services</h4>
+        <p class="mt-4">CSR</p>
+        <p>Plans</p>
+        <p>Podcast</p>   
+        <p>Profile</p>  
+      </div>
+      
+      <div class="col-md-3">
+      <h4 class="mb-3">Subscribe</h4>
+      <input type="email" name="" id="" placeholder="Email Address"> 
+       <!-- <i class="fas fa-arrow-right"></i> -->
+      <div class="contact">        
+        <p><i class="fas fa-envelope-open-text mr-3 mt-3"></i>info@shaves&trims.com</p>
+      </div>
+      <div class="tel">
+        <p><i class="fas fa-phone-alt mr-3"></i>+254 721 9987 3210</p>
+      </div>
+      </div>
+    </div>
+  </footer>
 
 
 
 
+
+  <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -206,6 +365,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
