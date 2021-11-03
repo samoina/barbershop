@@ -91,6 +91,7 @@ header {
 #display {
   margin-top: 10%;
   margin-left: 10%;
+  margin-bottom: 10%;
   width: fit-content;
 }
 
@@ -431,6 +432,7 @@ footer {
 
   #display {
     margin-top: 5%;
+    margin-bottom: 0;
   }
 
   #right-side {
