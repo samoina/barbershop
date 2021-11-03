@@ -41,7 +41,6 @@ header {
 #logo {
   font-family: 'betty-molly';
   font-size: 2rem;
-  /* border: 1px solid #000000;*/
 }
 
 .highlight {
@@ -53,7 +52,6 @@ header {
   display: flex;
   justify-content:space-between;
   list-style: none;
-  /* border: 3px solid #000000; */
   margin-right: 100px; 
   padding-top: 10px;
 }
@@ -162,7 +160,6 @@ video{
   position: relative;
   width: fit-content;
   left: 50%;
-  /* padding: 5px; */
 }
 
 .card:hover {
@@ -198,7 +195,6 @@ video{
 
 #inset-image {
   width:40%;
-  /* height:auto; */
   position: absolute;
   bottom: -60px;
   right: 45px;
@@ -213,6 +209,7 @@ video{
   width: 218.33px !important;
   margin-right: 50px;
 }
+
 .btn {
   border-radius: 5px;
   font-weight: normal;
@@ -225,6 +222,7 @@ video{
   padding: 14px 30px;
   cursor: pointer;
 }
+
 .btn-theme {
   background: var(--theme-color1);
   color: #212121;
@@ -397,6 +395,10 @@ video{
    margin-bottom: 30px;
 }
 
+#book {
+  margin-top: 15px;
+}
+
 #book-form {
   display: flex;
   justify-content: space-evenly;
@@ -408,4 +410,77 @@ footer {
   padding: 50px;
 }
 
+/*Media Queries*/
+@media (max-width:768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
+  #start {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    padding-top: 0;
+  }
+
+  #logo {
+    padding: 0;
+  }
+
+  #display {
+    margin-top: 5%;
+  }
+
+  #right-side {
+    display: none;
+  }
+
+  #left-side {
+    display:flex;
+    justify-content: center; 
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #btn-num {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    right: 19%;
+  }
+
+  #services {
+    padding: 0;
+  }
+
+  #inset-image {
+    display: none;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  #book-form {
+    display: flex;
+    flex-direction: column;    
+  }
+
+  #btn-learn {
+    margin-top: 10px;
+  }
+
+  footer {
+    font: smaller;
+  }
+
+  .social {
+    margin-bottom: 10px;
+  }
+
+}
